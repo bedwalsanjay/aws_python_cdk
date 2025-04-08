@@ -61,4 +61,46 @@ I am using choclatey to donwload nodejs , you can choose any other option as pro
   ![image](https://github.com/user-attachments/assets/223160d3-fbfc-4406-8fd2-360f449f07b6)
 
 
+## CDK 
+
+Official link : https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html
+
+```
+npm install -g aws-cdk
+```
+
+![image](https://github.com/user-attachments/assets/31b72830-ae50-4d01-b08b-bdc761158fae)
+
+## pip
+
+```
+python -m pip install --upgrade pip
+```
+
+![image](https://github.com/user-attachments/assets/8c9617de-a754-46d5-a9f1-c77b98a14a33)
+
+
+
+# Writing first python cdk program
+
+```
+mkdir my-project
+cd my-project
+cdk init app --language python
+```
+
+![image](https://github.com/user-attachments/assets/ff5bd0dd-6dd0-4aff-96fc-9e1b358a1b4c)
+
+![image](https://github.com/user-attachments/assets/b65bc77e-9140-46e8-97a0-aadf2f5baa6a)
+
+![image](https://github.com/user-attachments/assets/17df5715-4ddc-4de0-8f6b-8861f09ac549)
+
+You should see following directory stucture 
+
+![image](https://github.com/user-attachments/assets/efd099c4-dedc-411e-aea1-37f9f6445996)
+
+
+
+
+
 
