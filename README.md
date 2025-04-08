@@ -2,21 +2,42 @@
 This repository contains code for AWS python cdk
 
 # Prerequisites to start working in AWS python cdk
+I recommend you to run all the installation under **administrator** mode
+
+![image](https://github.com/user-attachments/assets/d2247bd5-72ad-4bfd-95f3-79128068e79b)
+
+
 
 https://docs.aws.amazon.com/cdk/v2/guide/prerequisites.html
 
 ## Python
 
+```
 python --version
+```
 
 ![image](https://github.com/user-attachments/assets/c59650dc-dc45-47c4-a5a1-6b830fb4f636)
 
 
 ## aws cdk
 
-aws --version
+official link : https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
-![image](https://github.com/user-attachments/assets/735ee05a-f729-4494-abdc-67b88a83e836)
+```
+msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
+```
+
+
+![image](https://github.com/user-attachments/assets/ccf840fc-6820-44b6-aab0-784800f6fdde)
+
+```
+aws --version
+```
+
+![image](https://github.com/user-attachments/assets/bf67889e-8bf4-40dc-9b26-749fb55e43ca)
+
+
+
 
 
 ## nodejs
