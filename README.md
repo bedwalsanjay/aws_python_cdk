@@ -12,6 +12,8 @@ https://docs.aws.amazon.com/cdk/v2/guide/prerequisites.html
 
 ## Python
 
+official site to download : https://www.python.org/downloads/
+
 ```
 python --version
 ```
@@ -19,7 +21,7 @@ python --version
 ![image](https://github.com/user-attachments/assets/c59650dc-dc45-47c4-a5a1-6b830fb4f636)
 
 
-## aws cdk
+## aws cli
 
 official link : https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
