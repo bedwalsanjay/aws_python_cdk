@@ -1,0 +1,22 @@
+#1
+file_type_1:
+    schema : |
+        StructType([
+            StructField("stk_num", StringType(), True),
+            StructField("ser_num", StringType(), True),
+            StructField("del_dte", DateType(), True),
+            StructField("svc_ind", StringType(), True),
+            StructField("cnfg_typ_cde", StringType(), True),
+        ])
+
+#2
+file_type_2:
+    schema : |
+        StructType([
+            StructField("mfg_dte", DateType(), True),
+            StructField("f_seat_cpcty_cnt", IntegerType(), True),
+            StructField("tot_tme_num", DecimalType(9,2), True),
+            StructField("row_updt_dte", DateType(), True),
+            StructField("make_cde", StringType(), True),
+            StructField("tme_usg_rto", DecimalType(5,3), True),
+        ])
