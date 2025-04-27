@@ -22,6 +22,7 @@ class SampleProject5Stack(Stack):
             assumed_by=iam.ServicePrincipal("glue.amazonaws.com"),
             managed_policies=[
                 iam.ManagedPolicy.from_aws_managed_policy_name("service-role/AWSGlueServiceRole"),
+                iam.ManagedPolicy.from_aws_managed_policy_name("AmazonS3FullAccess"),
             ]
         )      
 
