@@ -2,6 +2,7 @@ from aws_cdk import (
     Stack,
     aws_sns as sns,
     aws_sns_subscriptions as sns_subs,
+    aws_iam as iam,
 )
 
 from constructs import Construct
@@ -20,7 +21,9 @@ class SNS_cdk(Stack):
                 fifo=False,
                 #    master_key=custom_kms_encryption_key
                 )
-
+        
+        # Grant publish permissions to the EventBridge service
+        sns_topic.grant_publish(iam.ServicePrincipal("events.amazonaws.com"))         
 
         for email_id in config.sns_email_list:
             sns_topic.add_subscription(sns_subs.EmailSubscription(
