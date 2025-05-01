@@ -1,0 +1,1 @@
+sns_email_list = ["Goback2ITbasics@gmail.com"]
